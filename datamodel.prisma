@@ -9,6 +9,7 @@ type User {
   bio: String
   job: String!
   area: String
+  phone: String
   star: [User!] @relation(name: "StarRelation")
   followers: [User!] @relation(name: "FollowRelation")
   following: [User!] @relation(name: "FollowRelation")

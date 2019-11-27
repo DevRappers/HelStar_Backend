@@ -12,6 +12,7 @@ type User {
 	bio: String
 	job: String!
 	area: String
+	phone: String
 	star: [User!]
 	followers: [User!]
 	followersCount: Int!
