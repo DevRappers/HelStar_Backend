@@ -1,5 +1,80 @@
 type User {
   id: ID! @id
-  username: String!
-  lastName: String!
+  avatar: String @default(value: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt6uh88PUrYZ3y4JJ2HuEuPT534d99bJvTcDEzvTT2h_VVcf2YSw&s")
+  username: String! @unique
+  email: String! @unique
+  firstName: String
+  lastName: String
+  password: String!
+  bio: String
+  job: String!
+  area: String
+  star: [User!] @relation(name: "StarRelation")
+  followers: [User!] @relation(name: "FollowRelation")
+  following: [User!] @relation(name: "FollowRelation")
+  foodPosts: [Post!]! @relation(name: "FoodOfUser", onDelete: CASCADE)
+  helthPosts: [Post!]! @relation(name: "HelthOfUser", onDelete: CASCADE)
+  likes: [Like!]! @relation(name: "LikeOfUser", onDelete: CASCADE)
+  comments: [Comment!]! @relation(name: "CommentsOfUser", onDelete: CASCADE)
+  chatRoom: [Room!]!
+  loginSecret: String
+  createdAt: DateTime! @createdAt
+  updateAt: DateTime! @updateAt
+}
+
+type Post {
+  id: ID! @id
+  location: String
+  caption: String!
+  field: String
+  foodUser: User @relation(name: "FoodOfUser") 
+  helthUser: User @relation(name: "HelthOfUser")
+  files: [File!]! @relation(name: "FileOfPost" onDelete: CASCADE)
+  likes: [Like!]! @relation(name: "LikeOfPost" onDelete: CASCADE)
+  comments: [Comment!]! @relation(name: "CommentsOfPost" onDelete: CASCADE)
+  createdAt: DateTime! @createdAt
+  updateAt: DateTime! @updateAt
+}
+
+type Like{
+  id: ID! @id
+  user: User! @relation(name: "LikeOfUser")
+  post: Post! @relation(name: "LikeOfPost")
+  createdAt: DateTime! @createdAt
+  updateAt: DateTime! @updateAt
+}
+
+type Comment{
+  id: ID! @id
+  text: String!
+  user: User @relation(name: "CommentsOfUser")
+  post: Post! @relation(name: "CommentsOfPost")
+  createdAt: DateTime! @createdAt
+  updateAt: DateTime! @updateAt
+}
+
+type File {
+  id: ID! @id
+  url: String!
+  post: Post @relation(name: "FileOfPost")
+  createdAt: DateTime! @createdAt
+  updateAt: DateTime! @updateAt
+}
+
+type Room{
+  id: ID! @id
+  participants: [User!]!
+  messages: [Message!]!
+  createdAt: DateTime! @createdAt
+  updateAt: DateTime! @updateAt
+}
+
+type Message{
+  id: ID! @id
+  text: String!
+  from: User! @relation(name: "From")
+  to: User! @relation(name: "To")
+  room: Room!
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
 }
