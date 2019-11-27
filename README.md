@@ -3,9 +3,10 @@ Project HelStar Backend ( prisma, graphql )
 
 ## API 개발 목록 
 
-- [ ] Create account : 계정생성
-- [ ] Request Secret : 비밀값 요청
-- [ ] Confirm Secret (Login) : 비밀값 확인(로그인)
+- [x] Create account : 계정생성
+- [x] Request Secret : 비밀값 요청
+- [x] first login Confirm Secret Code : 첫 로그인시 이메일 인증하기
+- [x] Confirm password (Login) : 비밀값 확인(로그인)
 - [ ] Like / Unlike a photo : 사진에 좋아요, 좋아요 취소 하기
 - [ ] User Star : 유저에 별 주기 
 - [ ] Comment on a photo : 댓글 달기 

@@ -62,3 +62,4 @@ typings/
 generated
 prisma.yml
 src/crypto.js
+src/word.js

@@ -6,6 +6,7 @@ type User {
 	firstName: String
 	lastName: String
 	fullName: String
+	firstLogin: String
 	idFollowing: Boolean!
 	isSelf: Boolean!
 	password: String!
