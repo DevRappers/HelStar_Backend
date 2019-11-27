@@ -1,0 +1,17 @@
+type Mutation {
+	createAccount(
+		username: String!
+		email: String!
+		password: String!
+		firstName: String
+		lastName: String
+		bio: String
+		job: String!
+		area: String
+		phone: String
+	): Boolean!
+}
+
+type Query {
+	something: String!
+}
