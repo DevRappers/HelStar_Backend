@@ -1,0 +1,18 @@
+{
+    "name": "HelStar_Backend",
+    "version": "1.0.0",
+    "description": "HelStar Backend with Prisma + Express + GraphQL",
+    "repository": "https://github.com/DevRappers/HelStar_Backend",
+    "author": "DevRappers <devrappers@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "graphql-yoga": "^1.18.3"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "nodemon": "^2.0.1"
+    },
+    "scripts": {
+        "dev": "nodemon --exec babel-node src/server.js"
+    }
+}
