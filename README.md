@@ -11,9 +11,9 @@ Project HelStar Backend ( prisma, graphql )
 - [x] Comment on a photo : 댓글 달기 
 - [x] Search by user : user검색
 - [x] Search by post : post검색 
-- [ ] User Star : 유저에 별 주기 / 별 취소 하기
-- [ ] Follow User : 팔로우
-- [ ] Unfollow User : 언팔로우
+- [x] User Star : 유저에 별 주기 / 별 취소 하기
+- [x] Follow User : 팔로우
+- [x] Unfollow User : 언팔로우
 - [ ] Edit my profile : 프로필 정보 수정 
 - [ ] See user profile : 사용자의 프로필 구경 
 - [ ] See My Profile : 내 프로필 보기

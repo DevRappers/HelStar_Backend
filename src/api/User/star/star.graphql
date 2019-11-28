@@ -1,0 +1,3 @@
+type Mutation {
+	star(id: String!): Boolean
+}
