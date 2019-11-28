@@ -16,11 +16,11 @@ Project HelStar Backend ( prisma, graphql )
 - [x] Unfollow User : 언팔로우
 - [x] Edit my profile : 프로필 정보 수정 
 - [x] See user profile : 사용자의 프로필 구경 
-- [ ] See My Profile : 내 프로필 보기
+- [x] See My Profile : 내 프로필 보기
+- [x] See the full post : 포스트의 상세정보 보기(댓글, 좋아요수)
 - [ ] See the area post : 지역별 포스트 보기 
 - [ ] See the food post : 식단 포스트 보기 
 - [ ] See the helth post : 운동관리 포스트 보기 
-- [ ] See the full post : 포스트의 상세정보 보기(댓글, 좋아요수)
 - [ ] Upload a post : 포스트 업로드
 - [ ] Edit the post(Delete) : 포스트 수정(삭제) 
 - [ ] See the feed : feed보기 

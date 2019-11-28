@@ -7,7 +7,7 @@ type User {
 	lastName: String
 	fullName: String
 	firstLogin: String
-	idFollowing: Boolean!
+	isFollowing: Boolean!
 	isSelf: Boolean!
 	password: String!
 	bio: String
@@ -43,6 +43,7 @@ type Post {
 	likes: [Like!]!
 	likeCount: Int!
 	comments: [Comment!]!
+	isLiked: Boolean!
 	commentCount: Int!
 	createdAt: String
 	updatedAt: String
