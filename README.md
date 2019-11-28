@@ -14,8 +14,8 @@ Project HelStar Backend ( prisma, graphql )
 - [x] User Star : 유저에 별 주기 / 별 취소 하기
 - [x] Follow User : 팔로우
 - [x] Unfollow User : 언팔로우
-- [ ] Edit my profile : 프로필 정보 수정 
-- [ ] See user profile : 사용자의 프로필 구경 
+- [x] Edit my profile : 프로필 정보 수정 
+- [x] See user profile : 사용자의 프로필 구경 
 - [ ] See My Profile : 내 프로필 보기
 - [ ] See the area post : 지역별 포스트 보기 
 - [ ] See the food post : 식단 포스트 보기 

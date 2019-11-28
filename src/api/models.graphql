@@ -59,6 +59,8 @@ type Like {
 type Comment {
 	id: ID!
 	text: String!
+	parent: [Comment!]
+	child: [Comment!]
 	user: User
 	post: Post!
 	createdAt: String

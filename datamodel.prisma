@@ -48,6 +48,8 @@ type Like{
 type Comment{
   id: ID! @id
   text: String!
+  parent: [Comment!] @relation(name: "CommentRelation")
+  child: [Comment!] @relation(name: "CommentRelation")
   user: User @relation(name: "CommentsOfUser")
   post: Post! @relation(name: "CommentsOfPost")
   createdAt: DateTime! @createdAt
