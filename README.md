@@ -21,8 +21,8 @@ Project HelStar Backend ( prisma, graphql )
 - [ ] See the area post : 지역별 포스트 보기 
 - [ ] See the food post : 식단 포스트 보기 
 - [ ] See the helth post : 운동관리 포스트 보기 
-- [ ] Upload a post : 포스트 업로드
-- [ ] Edit the post(Delete) : 포스트 수정(삭제) 
+- [x] Upload a post : 포스트 업로드
+- [x] Edit the post(Delete) : 포스트 수정(삭제) 
 - [ ] See the feed : feed보기 
 - [ ] Send private DM : DM보내기
 - [ ] See rooms : 내 채팅방들 보기
