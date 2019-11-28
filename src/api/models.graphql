@@ -14,13 +14,14 @@ type User {
 	job: String!
 	area: String
 	phone: String
-	star: [User!]
+	starwers: [User!]
+	starwing: [User!]
+	starCount: Int!
 	followers: [User!]
 	followersCount: Int!
 	following: [User!]
 	followingCount: Int!
-	foodPosts: [Post!]!
-	helthPosts: [Post!]!
+	posts: [Post!]!
 	foodPostsCount: Int!
 	helthPostsCount: Int!
 	postsCount: Int!
@@ -37,8 +38,7 @@ type Post {
 	location: String
 	caption: String!
 	field: String
-	foodUser: User!
-	helthUser: User!
+	user: User!
 	files: [File!]!
 	likes: [Like!]!
 	likeCount: Int!

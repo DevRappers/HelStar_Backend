@@ -11,11 +11,11 @@ type User {
   job: String!
   area: String
   phone: String
-  star: [User!] @relation(name: "StarRelation")
+  starwers: [User!] @relation(name: "StarRelation")
+  starwing: [User!] @relation(name: "StarRelation")
   followers: [User!] @relation(name: "FollowRelation")
   following: [User!] @relation(name: "FollowRelation")
-  foodPosts: [Post!]! @relation(name: "FoodOfUser", onDelete: CASCADE)
-  helthPosts: [Post!]! @relation(name: "HelthOfUser", onDelete: CASCADE)
+  posts: [Post!]! @relation(name: "PostOfUser", onDelete: CASCADE)
   likes: [Like!]! @relation(name: "LikeOfUser", onDelete: CASCADE)
   comments: [Comment!]! @relation(name: "CommentsOfUser", onDelete: CASCADE)
   chatRoom: [Room!]!
@@ -28,9 +28,8 @@ type Post {
   id: ID! @id
   location: String
   caption: String!
-  field: String
-  foodUser: User @relation(name: "FoodOfUser") 
-  helthUser: User @relation(name: "HelthOfUser")
+  field: String!
+  user: User @relation(name: "PostOfUser")
   files: [File!]! @relation(name: "FileOfPost" onDelete: CASCADE)
   likes: [Like!]! @relation(name: "LikeOfPost" onDelete: CASCADE)
   comments: [Comment!]! @relation(name: "CommentsOfPost" onDelete: CASCADE)
