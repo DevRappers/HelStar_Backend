@@ -19,14 +19,13 @@ Project HelStar Backend ( prisma, graphql )
 - [x] See user profile : 사용자의 프로필 구경 
 - [x] See My Profile : 내 프로필 보기
 - [x] See the full post : 포스트의 상세정보 보기(댓글, 좋아요수)
-- [ ] See the area post : 지역별 포스트 보기 
 - [ ] See the food post : 식단 포스트 보기 
 - [ ] See the helth post : 운동관리 포스트 보기 
 - [x] Upload a post : 포스트 업로드
 - [x] Edit the post(Delete) : 포스트 수정(삭제) 
-- [ ] See the feed : feed보기 
-- [ ] Send private DM : DM보내기
-- [ ] See rooms : 내 채팅방들 보기
+- [x] See the feed : feed보기 
+- [x] Send private DM : DM보내기
+- [x] See rooms : 내 채팅방들 보기
 - [ ] See room : 채팅방들어가기
 - [ ] Receive DM (Realtime) : DM받기(실시간)
 - [ ] PT apply : PT 신청 및 강사구하기 
