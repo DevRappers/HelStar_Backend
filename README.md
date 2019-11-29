@@ -28,4 +28,5 @@ Project HelStar Backend ( prisma, graphql )
 - [x] Receive DM (Realtime) : DM받기(실시간)
 - [x] See the food feed : 식단 포스트만 보기 
 - [x] See the helth feed : 운동관리 포스트만 보기 
+- [x] Search by Trainer : 지역으로 트레이너 찾기
  
