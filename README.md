@@ -9,7 +9,7 @@ Project HelStar Backend ( prisma, graphql )
 - [x] Confirm password (Login) : 비밀값 확인(로그인)
 - [x] Like / Unlike a phost : 포스트에 좋아요, 좋아요 취소 하기
 - [x] Comment on a phost : 댓글 달기 
-- [ ] Delete Comment : 댓글 삭제 
+- [x] Delete Comment : 댓글 삭제 
 - [x] Search by user : user검색
 - [x] Search by post : post검색 
 - [x] User Star : 유저에 별 주기 / 별 취소 하기
@@ -19,8 +19,6 @@ Project HelStar Backend ( prisma, graphql )
 - [x] See user profile : 사용자의 프로필 구경 
 - [x] See My Profile : 내 프로필 보기
 - [x] See the full post : 포스트의 상세정보 보기(댓글, 좋아요수)
-- [ ] See the food post : 식단 포스트 보기 
-- [ ] See the helth post : 운동관리 포스트 보기 
 - [x] Upload a post : 포스트 업로드
 - [x] Edit the post(Delete) : 포스트 수정(삭제) 
 - [x] See the feed : feed보기 
@@ -28,6 +26,8 @@ Project HelStar Backend ( prisma, graphql )
 - [x] See rooms : 내 채팅방들 보기
 - [x] See room : 채팅방들어가기
 - [x] Receive DM (Realtime) : DM받기(실시간)
+- [ ] See the food post : 식단 포스트 보기 
+- [ ] See the helth post : 운동관리 포스트 보기 
 - [ ] PT apply : PT 신청 및 강사구하기 
 - [ ] job : 직업별 관리 ( 트레이너, 일반인 등급관리)
  
