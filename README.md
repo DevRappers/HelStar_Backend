@@ -26,8 +26,8 @@ Project HelStar Backend ( prisma, graphql )
 - [x] See the feed : feed보기 
 - [x] Send private DM : DM보내기
 - [x] See rooms : 내 채팅방들 보기
-- [ ] See room : 채팅방들어가기
-- [ ] Receive DM (Realtime) : DM받기(실시간)
+- [x] See room : 채팅방들어가기
+- [x] Receive DM (Realtime) : DM받기(실시간)
 - [ ] PT apply : PT 신청 및 강사구하기 
 - [ ] job : 직업별 관리 ( 트레이너, 일반인 등급관리)
  
